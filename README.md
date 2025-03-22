@@ -87,12 +87,12 @@ else:
 ### Final Output Example
 #### User Input:
 ```
-Enter your name: Alex
+Enter your name: Bassey
 Enter your weight in pounds: 180
 Enter your height in inches: 70
 ```
 #### Output:
 ```
 Your BMI is: 25.84
-Alex, you are overweight. You need to workout more often.
+Bassey, you are overweight. You need to workout more often.
 ```
