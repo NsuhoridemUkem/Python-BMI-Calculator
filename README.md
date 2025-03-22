@@ -6,7 +6,7 @@ This Python program calculates the **Body Mass Index (BMI)** based on user input
 
 ---
 
-### **Step 1: Prompting the User for Input**
+### Step 1: Prompting the User for Input
 The program asks the user to enter their **name, weight (in pounds), and height (in inches)** using the `input()` function.
 
 ```python
@@ -19,7 +19,7 @@ Height = int(input('Enter your height in inches:'))
 
 ---
 
-### **Step 2: BMI Calculation**
+### Step 2: BMI Calculation
 The **BMI formula** in pounds and inches is applied:
 
 \[
@@ -33,7 +33,7 @@ BMI = (Weight * 703) / (Height * Height)
 
 ---
 
-### **Step 3: Displaying the BMI Value**
+### Step 3: Displaying the BMI Value
 The program prints the calculated BMI:
 
 ```python
@@ -43,7 +43,7 @@ print("Your BMI is:", (BMI))
 
 ---
 
-### **Step 4: BMI Classification & Feedback**
+### Step 4: BMI Classification & Feedback
 The program checks the **BMI category** using `if-elif` conditions and gives appropriate health advice.
 
 ```python
@@ -73,7 +73,7 @@ Each category gives a personalized message based on the user's name.
 
 ---
 
-### **Step 5: Handling Invalid Input**
+### Step 5: Handling Invalid Input
 If BMI is not positive (e.g., user enters invalid data), an error message is displayed:
 
 ```python
@@ -84,24 +84,15 @@ else:
 
 ---
 
-### **Final Output Example**
-#### **User Input:**
+### Final Output Example
+#### User Input:
 ```
 Enter your name: Alex
 Enter your weight in pounds: 180
 Enter your height in inches: 70
 ```
-#### **Output:**
+#### Output:
 ```
 Your BMI is: 25.84
 Alex, you are overweight. You need to workout more often.
 ```
-
----
-
-### **Improvements**
-1. **Input Validation:** Ensure that weight and height are positive numbers.
-2. **Float Inputs:** Allow decimal values for more accurate BMI.
-3. **Formatted Output:** Display BMI with two decimal places for clarity.
-
-Would you like a refined version of this code with improvements? 
