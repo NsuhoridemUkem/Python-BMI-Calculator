@@ -1,0 +1,29 @@
+# Building a Body Mass Index (BMI) 
+# BMI = (weight in pounds x 703) / (height in inches x height in inches)
+# Using the key-input()
+
+Name = input('Enter your name:')
+
+Weight = int(input('Enter your weight in pounds:'))
+
+Height = int(input('Enter your height in inches:'))
+
+BMI = (Weight * 703) / (Height * Height)
+
+print("Your BMI is:", (BMI))
+
+if BMI>0:
+    if (BMI < 18.5):
+        print(Name + ', you are underweight. You need to diet properly.')
+    elif (BMI <= 24.9):
+        print(Name + ", you are normal weight. You're in shape!")
+    elif (BMI <= 29.9):
+        print(Name + ', you are overweight. You need to workout more often.')
+    elif (BMI <= 34.9):
+        print(Name + ', you are obese. Cut down on your food intake and workout very often.')
+    elif (BMI <= 39.9):
+        print(Name + ', you are severely obese. Stop eating junk food, cutdown on diet, and workout daily.')
+    elif (BMI >= 40):
+        print(Name + ', you are morbidly obese. See a doctor urgently for medical advice!')
+else:
+    print('Enter valid input')
